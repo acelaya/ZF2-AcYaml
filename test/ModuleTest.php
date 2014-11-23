@@ -1,7 +1,7 @@
 <?php
 namespace Acmailer\Test;
 
-use Acelaya\Module;
+use Acelaya\Yaml\Module;
 
 /**
  * Class ModuleTest

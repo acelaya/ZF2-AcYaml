@@ -19,6 +19,7 @@ class YamlRendererFactory implements FactoryInterface
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-
+        $renderer = new YamlRenderer();
+        return $renderer;
     }
 }

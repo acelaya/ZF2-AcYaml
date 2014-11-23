@@ -1,6 +1,14 @@
 AcYaml
 ======
 
+[![Build Status](https://travis-ci.org/acelaya/ZF2-AcYaml.svg?branch=develop)](https://travis-ci.org/acelaya/ZF2-AcYaml)
+[![Code Coverage](https://scrutinizer-ci.com/g/acelaya/ZF2-AcYaml/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/acelaya/ZF2-AcYaml/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/acelaya/ZF2-AcYaml/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/acelaya/ZF2-AcYaml/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/acelaya/zf2-acyaml/v/stable.svg)](https://packagist.org/packages/acelaya/zf2-acyaml)
+[![Total Downloads](https://poser.pugx.org/acelaya/zf2-acyaml/downloads.svg)](https://packagist.org/packages/acelaya/zf2-acyaml)
+[![License](https://poser.pugx.org/acelaya/zf2-acyaml/license.svg)](https://packagist.org/packages/acelaya/zf2-acyaml)
+
+
 This module allows to work with Yaml responses the same way we do with JSON responses. Indeed, this module is pretty simple and is based on built-in JSON rendering classes (`View\JsonStrategy`, `View\JsonRenderer` and `View\JsonModel`) but using [Symfony\Yaml](https://github.com/symfony/Yaml) instead of `Zend\Json`.
 
 ### Installation

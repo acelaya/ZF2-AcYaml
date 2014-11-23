@@ -1,6 +1,7 @@
 <?php
 namespace Acelaya\Yaml\View\Strategy;
 
+use Acelaya\Yaml\View\Renderer\YamlRenderer;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
@@ -19,6 +20,8 @@ class YamlStrategyFactory implements FactoryInterface
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-
+        /** @var YamlRenderer $renderer */
+        $renderer = $serviceLocator->get('Acelaya\Yaml\View\Renderer\YamlRenderer');
+        return new YamlStrategy($renderer);
     }
 }

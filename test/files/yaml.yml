@@ -1,0 +1,7 @@
+hello: 'my friend'
+foo:
+    - 1
+    - 2
+    - 3
+howAreYou:
+    imOk: thanks
