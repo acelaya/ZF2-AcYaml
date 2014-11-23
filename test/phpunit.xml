@@ -13,6 +13,9 @@
     <testsuite name="Module test">
         <file>./ModuleTest.php</file>
     </testsuite>
+    <testsuite name="View test">
+        <directory>./View</directory>
+    </testsuite>
 
     <filter>
         <whitelist>
