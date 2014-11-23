@@ -1,6 +1,6 @@
 {
     "name": "acelaya/zf2-acyaml",
-    "description": "A Zend Framework 2 module to handle yaml files and yaml responses",
+    "description": "A Zend Framework 2 module to handle yaml files and return yaml responses",
     "license": "MIT",
     "authors": [
         {
