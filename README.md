@@ -23,7 +23,7 @@ And run this command in order to get this module installed.
 
     php composer.phar require acelaya/zf2-acyaml:~0.1
     
-Fianlly add the module to your `application.config.php` file.
+Finally add the module to your `application.config.php` file.
 
 ```php
 return array(
