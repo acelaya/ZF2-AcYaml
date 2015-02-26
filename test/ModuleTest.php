@@ -20,15 +20,6 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
         $this->module = new Module();
     }
 
-    public function testGetAutoloaderConfig()
-    {
-        $autoloaderConfig = $this->module->getAutoloaderConfig();
-
-        $this->assertTrue(is_array($autoloaderConfig));
-        $this->assertArrayHasKey('Zend\Loader\ClassMapAutoloader', $autoloaderConfig);
-        $this->assertArrayHasKey('Zend\Loader\StandardAutoloader', $autoloaderConfig);
-    }
-
     public function testGetConfig()
     {
         $expectedConfig = include __DIR__ . '/../config/module.config.php';
